@@ -40,7 +40,7 @@ def count(color):
     for bag in dataset[color]:
         i = bag[0] + bag[0] * count(bag[1])
 
-        print(f'{bag[0]} {bag[1]} bags contains total of {i} bags.')
+        # print(f'{bag[0]} {bag[1]} bags contains total of {i} bags.')
 
         ctr +=i
     return ctr
